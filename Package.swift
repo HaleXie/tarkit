@@ -21,6 +21,7 @@ let package = Package(
         .target(
             name: "tarkit",
             dependencies: [],
+            path: ".",
             sources: ["DCTar.h", "DCTar.m"],
             publicHeadersPath: ".",
             cSettings: [
